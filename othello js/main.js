@@ -1,10 +1,9 @@
-/**
+/****************************************
  * Othello
- * Javascript project for CIS 343.
  * Command-line version of Othello.
  * Template By CIS 343, GVSU
  * Author : Harman Rai
- */
+ ****************************************/
 
 // Import our board definitions
 const board = require('./board.js');
