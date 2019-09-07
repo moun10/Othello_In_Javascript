@@ -9,17 +9,20 @@ or not possible. This game automatically executes game over if either player win
 The code is written in Javascript and is meant to run on a
 Linux based machine.
 
-The [`main`](main.js) file will execute the game itself.
+The [`main`](main.js) file will execute the game itself, but placing the each piece occurs in board.js
 
-```python
-def twitter_callback(tweet):
-    companies = analysis.find_companies(tweet)
-    if companies:
-        trading.make_trades(companies)
-        twitter.tweet(companies, tweet)
+```Javascript
+function start(){
+  // Local variables
+  //Sets Heigh and Width
+  let height = prompt('What height for your board? ');
+  let width = prompt('What width for your board? ');
 
-if __name__ == "__main__":
-    twitter.start_streaming(twitter_callback)
+
+	// SYNCHRONOUSLY read from keyboard
+	console.log('Creating a board with size ' + height + ' x ' + width + '.');
+	// Create new board object
+   let myBoard = new board(height, width)
 ```
 
 Follow these steps to run the code yourself:
@@ -29,24 +32,15 @@ Follow these steps to run the code yourself:
 https://nodejs.org/en/download/package-manager/
 
 ```shell
-node main .
+node --version
 ```
 
-### 2. Choose board size and color
-
-The game will ask player one to fill out their choices.
-
-
-```
-
-### 3. Check dependencies
-
-Ceck
+### 2. Run the main file
 
 ```shell
-$ node --version
+$ node main.js
 ```
-### 4. Run the tests
+### 4. Play the game
 
 
 
