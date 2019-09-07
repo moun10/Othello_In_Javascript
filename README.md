@@ -4,7 +4,7 @@ board size and color. When he does, it uses a dynamic function to determine the 
 on a 2d array. Then will tell the user if their choice is possible or
 or not possible. This game automatically executes game over if either player wins. 
 
-[![Trump2Cash](https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2F9xNZnM6jtRA%2Fhqdefault.jpg&f=1&nofb=1)](https://trump2cash.biz)
+[![Board](https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2F9xNZnM6jtRA%2Fhqdefault.jpg&f=1&nofb=1)](https://trump2cash.biz)
 
 The code is written in Javascript and is meant to run on a
 Linux based machine.
@@ -40,7 +40,7 @@ node --version
 ```shell
 $ node main.js
 ```
-### 4. Play the game
+### 3. Play the game
 
 
 
